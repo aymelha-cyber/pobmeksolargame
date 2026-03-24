@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solar & Pobmek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Solar & Pobmek</h1>
+<p id="info">Reach the door together!</p>
+
+<canvas id="gameCanvas" width="500" height="300"></canvas>
+
+<div>
+  <button ontouchstart="move('l1')">◀</button>
+  <button ontouchstart="move('r1')">▶</button>
+  <button ontouchstart="jump('1')">⬆</button>
+
+  <button ontouchstart="move('l2')">A</button>
+  <button ontouchstart="move('r2')">D</button>
+  <button ontouchstart="jump('2')">W</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
